@@ -592,4 +592,4 @@ Client sees the `data: {...}` line, strips `data: `, `json.loads(...)` → `{"js
 **client.py** = the waiter who knows how to speak the server’s protocol: build a JSON-RPC POST, open a streaming connection, read `data: ` lines, parse JSON, and return the server’s answer. Without a client that speaks this protocol, the server (chef) won’t respond to a plain browser visit.
 
 
-![Flow Diagram](img.png "This is a flow diagram"))
+![Flow Diagram](img.png "This is a flow diagram")
